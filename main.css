@@ -1,0 +1,115 @@
+/* this is css comments   fonts.google.com */
+
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+body {
+    background:url() no-repeat center center fixed;
+ }
+
+
+html { 
+    background: url(A1200.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.box {
+    color: white;
+    font-size: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+    width: 400px;
+    
+}
+
+/* Colours for each boxes red white and blue */
+
+.box1 { background: #e90909; }
+.box2 { background: #faf9f9; }
+.box3 { background: #1a1ca5f8; }
+/* * {
+    background-color: black;
+    box-sizing: border-box;
+    padding: 25px;
+} */
+
+.pages { font-size: 30px; text-decoration: 'Viaoda Libre', cursive; color: rgb(30, 255, 0);
+
+ }
+
+h1 {
+    color: red;
+    font-size: 80px;
+    text-align: center;
+
+}
+
+p {
+    color:  rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Viaoda Libre', cursive;
+    text-align: center ;
+} 
+
+/* p2 {
+    color:rgb(0, 17, 255);
+    font-size: 20px;
+    font-family: 'Viaoda Libre', cursive;
+    text-align: center ;
+} */
+
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center;
+}
+
+.center2 {
+    display:block;
+    width: 30%;
+    text-align: center;
+    
+}
+
+figure {
+    border: 1px #218abb solid;
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: 120%;
+    font-family: 'Viaoda Libre', cursive;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  img.scaled {
+    width: 100%;
+  }
+
+
+figcaption {
+    background-color: none;
+    color: rgb(255, 251, 0);
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
+
